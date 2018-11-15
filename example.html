@@ -1,0 +1,44 @@
+<!-- Nicholas Wackowski, 2018 -->
+<!-- A multiplication table which utilizes JavaScript to take user input -->
+<!-- and create an appropriate multiplication table. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Multiplication Table</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/c05.css">
+  </head>
+  <body>
+    <div class = "lefthalf">
+      <h1>Multiplication Table Creator!</h1>
+
+      <img  id="multiplication_image" src="images/multi_sign.png" alt="Heyyy there welcome to my website">
+      <div class="clearfix"> </div>
+
+      <!-- Get x-axis values, lining the text and buttons end-to-end -->
+      <h3>Starting x-axis value:</h3> <h3>Ending x-axis value:</h3>
+      <div class="clearfix"> </div>
+      <input type="number" id="colStart" value="1"> <input type="number" id="colEnd" value="10">
+      <div id="xError"></div>
+
+      <!-- Get x-axis values, lining the text and buttons end-to-end -->
+      <br>
+      <h3>Starting y-axis value:</h3> <h3>Ending y-axis value:</h3>
+      <div class="clearfix"> </div>
+      <input type="number" id="rowStart" value="1"> <input type="number" id="rowEnd" value="10">
+      <div id="yError"></div>
+
+      <br>
+      <p></p>
+      <button onclick="makeTable()">Create Table!</button>
+      <div class="clearfix"> </div>
+      <!-- Table will appear here, thanks to our friend JavaScript -->
+    </div>
+    
+    <div id="TABLE">
+    </div>
+
+    <script src="js/example.js"></script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+/*Tags:*/
+body {
+	background-repeat:no-repeat;
+/*	background-image:linear-gradient(green, yellow); */
+	background-image:url("../images/background.png");
+	background-size:100%;
+	background-attachment:fixed;
+	height:100%;
+	font-family: 'Oswald', 'Futura', sans-serif;
+	margin: 0; 
+	padding: 0;
+	color:maroon;
+}
+
+h3{
+	float:left;
+	margin-right:22px;
+	margin-bottom:3px;
+}
+
+button{
+	float:bottom;
+	margin-left:120px;
+}
+
+td{
+	padding-left:8px;
+	padding-right:8px;
+	border:2px solid black;
+	margin: 0px;
+}
+
+/*Classes:*/
+
+.clearfix{
+	clear:both;
+}
+
+.lefthalf{
+	border-style:solid;
+	border-top-style: none;
+	float:left;
+	padding:20px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+/*Id's:*/
+#multiplication_image{
+	height:20px;
+	width:20px;
+	padding-left:155px;
+}
+#xError{
+	color:red;
+}
+#yError{
+	color:red;
+}
+
+#topBorder{
+	background-color:#4B6F44;
+	color:gold;
+}
+#sideBorder{
+	background-color:gold;
+	color:chocolate;
+}
+#diagonal{
+	background-color:orange;
+	color: black;
+}
+#else{
+	background-color:yellowgreen;
+	color:black;
+}
+
+#TABLE{
+	float:left;
+	padding-top:10px;
+	margin: auto;
+}
