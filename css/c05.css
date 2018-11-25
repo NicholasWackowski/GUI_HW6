@@ -3,11 +3,10 @@
 /*Tags:*/
 body {
 	background-repeat:no-repeat;
-/*	background-image:linear-gradient(green, yellow); */
+	background-image:linear-gradient(green, yellow);
 	background-image:url("../images/background.png");
-	background-size:100%;
+	background-size:cover;
 	background-attachment:fixed;
-	height:100%;
 	font-family: 'Oswald', 'Futura', sans-serif;
 	margin: 0; 
 	padding: 0;
