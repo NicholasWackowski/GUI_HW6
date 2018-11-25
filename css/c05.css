@@ -8,6 +8,7 @@ body {
 	background-size:cover;
 	background-attachment:fixed;
 	font-family: 'Oswald', 'Futura', sans-serif;
+	height: 100%;
 	margin: 0; 
 	padding: 0;
 	color:maroon;
